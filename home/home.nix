@@ -21,12 +21,14 @@ in
     packages = with pkgs; [
       bat
       broot
+      element-desktop
       fzf
       htop
       jq
       keepassxc
       mpv
       pavucontrol
+      signal-desktop
       zathura
       zoxide
     ];

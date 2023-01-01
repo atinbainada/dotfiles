@@ -8,6 +8,7 @@ let
 
 in
 [
+  ./browsers/firefox.nix
   ./git
   ./nvim
   misc

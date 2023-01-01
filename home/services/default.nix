@@ -1,7 +1,8 @@
 let
-  more = {
+  misc = {
     services = {
       flameshot.enable = true;
+      syncthing.enable = true;
 
       gpg-agent = {
         enable = true;
@@ -14,6 +15,6 @@ in
 [
   ./polybar
   ./redshift
-  more
+  misc
 ]
 
